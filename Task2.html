@@ -7,13 +7,10 @@
   </head>
   <body>
     <script>
-      // 1. Generăm un număr aleatoriu între 1 și 10
       let randomNumber = Math.floor(Math.random() * 10) + 1;
 
-      // 2. Cerem utilizatorului să ghicească numărul
       let userGuess = Number(prompt("Ghicește un număr între 1 și 10:"));
 
-      // 3. Verificăm dacă a ghicit corect
       if (userGuess === randomNumber) {
         alert("Corect! Ai ghicit numărul.");
       } else {
