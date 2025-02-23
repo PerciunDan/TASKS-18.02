@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Parcurgem numerele de la 1 la 30
+      for (let i = 1; i <= 30; i++) {
+        // Dacă e multiplu de 3 și 5 → FizzBuzz
+        if (i % 3 === 0 && i % 5 === 0) {
+          console.log("WaterFall");
+        }
+        // Dacă e multiplu doar de 3 → Fizz
+        else if (i % 3 === 0) {
+          console.log("Water");
+        }
+        // Dacă e multiplu doar de 5 → Buzz
+        else if (i % 5 === 0) {
+          console.log("Fall");
+        }
+        // Dacă nu e multiplu de 3 sau 5, afișăm numărul
+        else {
+          console.log(i);
+        }
+      }
+    </script>
+  </body>
+</html>
