@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+  </head>
+  <body>
+    <script>
+      // Cerem utilizatorului să introducă un an
+      let year = Number(prompt("Introduceți un an:"));
+
+      // Verificăm dacă este an bisect
+      if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+        console.log("Leap year"); // An bisect
+      } else {
+        console.log("Not a leap year"); // Nu este an bisect
+      }
+    </script>
+  </body>
+</html>
