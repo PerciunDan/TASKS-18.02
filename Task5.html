@@ -6,6 +6,23 @@
     <title>Task 5</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      // 1. Cerem utilizatorului să introducă o propoziție
+      let sentence = prompt("Te rog să introduci o propoziție:");
+
+      // 2. Inițializăm un contor pentru spații
+      let spaceCount = 0;
+
+      // 3. Parcurgem fiecare caracter din propoziție
+      for (let i = 0; i < sentence.length; i++) {
+        // 4. Dacă caracterul este un spațiu, incrementăm contorul
+        if (sentence[i] === " ") {
+          spaceCount++;
+        }
+      }
+
+      // 5. Afișăm rezultatul
+      console.log("Numărul de spații în propoziția ta este: " + spaceCount);
+    </script>
   </body>
 </html>
